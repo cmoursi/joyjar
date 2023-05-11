@@ -1,0 +1,172 @@
+h1 {
+font-family: 'ABeeZee';font-size: 30px;
+}
+p {
+    font-family: 'ABeeZee';font-size: 24px;  
+}
+
+body {
+    align-content: center;
+}
+/*HEADER SECTION*/
+.desktop-header{
+    background-color:#f9f5f2;
+    display:none;
+    padding: 36px;
+    max-width: 1100px;
+    align-content: center;
+}
+
+.mobile-header{
+    background-color:#f9f5f2;
+}
+
+@media (min-width:1100px) {
+    .mobile-header {
+        display:none;
+    }
+    .desktop-header{
+        display:block;
+    }
+}
+
+/*CARD SECTION*/
+.card-section {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color:#f9f5f2; 
+    max-width: 1100px;
+    padding-left: 36px;
+    padding-bottom: 56px;
+    padding-right: 36px;
+    padding-top: 0px;
+   
+}
+
+@media (min-width:1100px) {
+    .card-section {
+        flex-direction: row;
+    }
+}
+
+/*DOWNLOAD APP SECTION*/
+.download-section {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    max-width: 1100px;
+    padding: 36px;
+}
+
+@media (min-width:1100px) {
+    .download-section {
+        flex-direction: row;
+    }
+}
+
+.download-button {
+    display:flex;
+    flex-direction: column;
+}
+
+.joy-jar-logo {
+    margin: 0px;
+}
+
+@media (min-width: 1100px) {
+    .joy-jar-logo {
+        margin: -84px;
+    }
+}
+
+/*TIME SENSITIVE SECTION*/
+
+.time-sensitive-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:#f9f5f2;
+    max-width: 1100px;
+    padding: 36px;
+}
+.good-morning-mockup {
+   max-width: 350px; 
+   margin-top: 0px;
+}
+
+.hourglass {
+    align-items: center;
+}
+
+@media (min-width:1100px) {
+    .time-sensitive-section {
+        flex-direction: row;
+    }
+    .good-morning-mockup{
+        margin-top: -104px;
+    }
+}
+
+/*PERSONALIZE REWARDS SECTION*/
+
+.personalize-rewards-section {
+    display:flex;
+    flex-direction: column;
+    max-width: 1100px;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 36px;
+}
+
+@media (min-width:1100px) {
+    .personalize-rewards-section {
+        flex-direction: row-reverse;
+    }
+    .pizza {
+        max-width: 200px;
+    }
+}
+
+/*EARN STARS SECTION*/
+.earn-stars-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:#f9f5f2;
+    max-width: 1100px;
+    padding: 36px;
+}
+.stars-award {
+   max-width: 350px; 
+   margin-top: 0px;
+}
+
+@media (min-width:1100px) {
+    .earn-stars-section {
+        flex-direction: row;
+    }
+    .stars-award{
+        margin-top: -104px;
+    }
+}
+
+/*FOOTER SECTION*/
+.footer {
+    background-color:#30E3DF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 36px;
+    max-width: 1100px;
+}
+
+@media (min-width:1100px) {
+    .footer {
+    flex-direction: row;
+    }
+}
+

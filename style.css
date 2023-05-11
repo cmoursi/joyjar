@@ -10,10 +10,14 @@ h2 {
 font-family: 'ABeeZee';font-size: 44px;
 }
 
-@media (min-width:1172px){
+@media (min-width: 920px){
+
+}
+
+@media (min-width: 920px){
 .content {
     margin:auto;
-    max-width: 1172px;
+    max-width: 920px;
 }
 }
 /*HEADER SECTION*/
@@ -37,7 +41,7 @@ font-family: 'ABeeZee';font-size: 44px;
    height: auto;
 }
 
-@media (min-width:1172px) {
+@media (min-width: 920px) {
     .mobile-header {
         display:none;
     }
@@ -53,26 +57,25 @@ font-family: 'ABeeZee';font-size: 44px;
     justify-content: space-evenly;
     align-items: center;
     background-color:#f9f5f2; 
-    max-width: 1172px;
+    /*
     padding-left: 36px;
     padding-bottom: 56px;
     padding-right: 36px;
-    padding-top: 0px;
+    padding-top: 0px;*/
 }
 
 .card-section img {
     padding: 24px;
-    width: 80%;
-    height: auto;
-    /*max-width: ;*/
+    min-width: 200px;
 }
 
-@media (min-width:1172px) {
+@media (min-width: 920px) {
     .card-section {
         flex-direction: row;
+        max-width: 920px;
     }
     .card-section img{
-        min-width: 360px;
+        min-width: 270px;
     }
 }
 
@@ -82,11 +85,16 @@ font-family: 'ABeeZee';font-size: 44px;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    max-width: 1172px;
+    max-width: 920px;
     padding: 36px;
 }
 
-@media (min-width:1172px) {
+.download-section img {
+    width: 100%;
+    height: auto;
+}
+
+@media (min-width: 920px) {
     .download-section {
         flex-direction: row;
     }
@@ -99,11 +107,16 @@ font-family: 'ABeeZee';font-size: 44px;
     text-align: center;
 }
 
+.download-button img {
+    width: 50%;
+    height: auto;
+}
+
 .joy-jar-logo {
     margin: 0px;
 }
 
-@media (min-width: 1172px) {
+@media (min-width: 920px) {
     .joy-jar-logo {
         margin: -84px;
     }
@@ -117,7 +130,7 @@ font-family: 'ABeeZee';font-size: 44px;
     align-items: center;
     justify-content: space-evenly;
     background-color:#f9f5f2;
-    max-width: 1172px;
+    max-width: 920px;
     padding: 36px;
 }
 .good-morning-mockup {
@@ -130,12 +143,12 @@ font-family: 'ABeeZee';font-size: 44px;
     max-width: 420px;
 }
 
-@media (min-width:1172px) {
+@media (min-width: 920px) {
     .time-sensitive-section {
         flex-direction: row;
     }
     .good-morning-mockup{
-        margin-top: -104px;
+        margin-top: -84px;
     }
 
     .hourglass{
@@ -148,7 +161,7 @@ font-family: 'ABeeZee';font-size: 44px;
 .personalize-rewards-section {
     display:flex;
     flex-direction: column;
-    max-width: 1172px;
+    max-width: 920px;
     justify-content: space-evenly;
     align-items: center;
     padding: 36px;
@@ -159,7 +172,7 @@ font-family: 'ABeeZee';font-size: 44px;
     max-width: 400px;
 }
 
-@media (min-width:1172px) {
+@media (min-width: 920px) {
     .personalize-rewards-section {
         flex-direction: row-reverse;
     }
@@ -175,7 +188,7 @@ font-family: 'ABeeZee';font-size: 44px;
     justify-content: space-evenly;
     align-items: center;
     background-color:#f9f5f2;
-    max-width: 1172px;
+    max-width: 920px;
     padding: 36px;
 }
 .stars-award {
@@ -188,12 +201,12 @@ font-family: 'ABeeZee';font-size: 44px;
     max-width: 480px;
 }
 
-@media (min-width:1172px) {
+@media (min-width: 920px) {
     .earn-stars-section {
         flex-direction: row;
     }
     .stars-award{
-        margin-top: -124px;
+        margin-top: -104px;
     }
 
     
@@ -207,10 +220,10 @@ font-family: 'ABeeZee';font-size: 44px;
     align-items: center;
     justify-content: space-between;
     padding: 36px;
-    max-width: 1172px;
+    max-width: 920px;
 }
 
-@media (min-width:1172px) {
+@media (min-width: 920px) {
     .footer {
     flex-direction: row;
     }

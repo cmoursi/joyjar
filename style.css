@@ -23,10 +23,17 @@ font-family: 'ABeeZee';font-size: 38px;
     height: auto;
 }
 
+/* TRYING TO MAKE MOBILE VERSION SMALLER*/
+.content {
+    width: 80%;
+    height: auto;
+    margin: auto;
+}
+
 @media (min-width: 920px){
 
+ /*DESKTOP CONTENT*/
 .content {
-   /*TARGET ALL CONTENT*/
    margin: auto;
    max-width: 920px;
     }

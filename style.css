@@ -28,7 +28,7 @@ h1 {
  /*DESKTOP CONTENT AND IMAGES*/
 @media (min-width: 920px){
 .content {
-    width: 100%;
+   width: 100%;
    margin: auto;
    max-width: 920px;
     }
@@ -175,7 +175,7 @@ h1 {
 
 .pizza {
     text-align: center;
-    max-width: 400px;
+    max-width: 500px;
     padding: 20px;
 }
 

@@ -33,7 +33,7 @@ font-family: 'ABeeZee';font-size: 44px;
 }
 
 .mobile-header img {
-    min-width: 65vw;
+    min-width: 75vw;
 }
 
 @media (min-width:1172px) {

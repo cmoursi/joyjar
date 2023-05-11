@@ -31,6 +31,7 @@ font-family: 'ABeeZee';font-size: 64px;
     max-width: 920px;
 }
 }
+
 /*HEADER SECTION*/
 .desktop-header{
     background-color:#f9f5f2;
@@ -44,7 +45,6 @@ font-family: 'ABeeZee';font-size: 64px;
     background-color:#f9f5f2;
     justify-content: center;
     padding: 24px;
-    
 }
 
 .mobile-header img {
@@ -68,11 +68,7 @@ font-family: 'ABeeZee';font-size: 64px;
     justify-content: space-evenly;
     align-items: center;
     background-color:#f9f5f2; 
-    /*
-    padding-left: 36px;
-    padding-bottom: 56px;
-    padding-right: 36px;
-    padding-top: 0px;*/
+
 }
 
 .card-section img {
@@ -101,9 +97,10 @@ font-family: 'ABeeZee';font-size: 64px;
     padding: 36px;
 }
 
-.download-section img {
+.joy-jar-logo {
     width: 100%;
     height: auto;
+    
 }
 
 @media (min-width: 920px) {
@@ -126,6 +123,9 @@ font-family: 'ABeeZee';font-size: 64px;
 
 .joy-jar-logo {
     margin: 0px;
+    width: 273px;
+    height: auto;
+    padding: 25px;
 }
 
 @media (min-width: 920px) {

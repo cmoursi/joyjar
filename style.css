@@ -21,7 +21,6 @@ font-family: 'ABeeZee';font-size: 44px;
     background-color:#f9f5f2;
     display:none;
     padding: 36px;
-    max-width: 1172px;
     align-content: center;
 }
 
@@ -34,7 +33,7 @@ font-family: 'ABeeZee';font-size: 44px;
 }
 
 .mobile-header img {
-    min-height: 75vh;
+    min-width: 65vw;
 }
 
 @media (min-width:1172px) {

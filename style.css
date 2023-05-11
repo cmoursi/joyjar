@@ -43,31 +43,38 @@ padding: 25px;
 
 
 /*HEADER SECTION*/
-.desktop-header{
-    background-color:#f9f5f2;
+.desktop-section{
+    background-color:#f9f5f2; 
     display:none;
-    padding: 36px;
+}
+
+.desktop-header {
+    display: none;
     align-content: center;
+}
+
+.mobile-section {
+    background-color:#f9f5f2;
 }
 
 .mobile-header{
     display:flex;
-    background-color:#f9f5f2;
     justify-content: center;
     padding: 24px;
-}
-
-.mobile-header img {
-   width: 80%;
-   height: auto;
 }
 
 @media (min-width: 920px) {
     .mobile-header {
         display:none;
     }
+    .mobile-section {
+        display:none;
+    }
     .desktop-header{
-        display:block;
+        display:flex;
+    }
+    .desktop-section{
+        display: flex;
     }
 }
 

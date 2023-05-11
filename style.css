@@ -10,15 +10,18 @@ h2 {
 font-family: 'ABeeZee';font-size: 44px;
 }
 
-body {
-    align-content: center;
+@media (min-width:1172px){
+.content {
+    margin:auto;
+    max-width: 1172px;
+}
 }
 /*HEADER SECTION*/
 .desktop-header{
     background-color:#f9f5f2;
     display:none;
     padding: 36px;
-    max-width: 1100px;
+    max-width: 1172px;
     align-content: center;
 }
 
@@ -29,7 +32,7 @@ body {
     padding: 24px;
 }
 
-@media (min-width:1100px) {
+@media (min-width:1172px) {
     .mobile-header {
         display:none;
     }
@@ -45,7 +48,7 @@ body {
     justify-content: space-evenly;
     align-items: center;
     background-color:#f9f5f2; 
-    max-width: 1100px;
+    max-width: 1172px;
     padding-left: 36px;
     padding-bottom: 56px;
     padding-right: 36px;
@@ -56,7 +59,7 @@ body {
     padding: 24px;
 }
 
-@media (min-width:1100px) {
+@media (min-width:1172px) {
     .card-section {
         flex-direction: row;
     }
@@ -68,11 +71,11 @@ body {
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    max-width: 1100px;
+    max-width: 1172px;
     padding: 36px;
 }
 
-@media (min-width:1100px) {
+@media (min-width:1172px) {
     .download-section {
         flex-direction: row;
     }
@@ -88,7 +91,7 @@ body {
     margin: 0px;
 }
 
-@media (min-width: 1100px) {
+@media (min-width: 1172px) {
     .joy-jar-logo {
         margin: -84px;
     }
@@ -102,7 +105,7 @@ body {
     align-items: center;
     justify-content: space-between;
     background-color:#f9f5f2;
-    max-width: 1100px;
+    max-width: 1172px;
     padding: 36px;
 }
 .good-morning-mockup {
@@ -115,7 +118,7 @@ body {
     max-width: 420px;
 }
 
-@media (min-width:1100px) {
+@media (min-width:1172px) {
     .time-sensitive-section {
         flex-direction: row;
     }
@@ -129,7 +132,7 @@ body {
 .personalize-rewards-section {
     display:flex;
     flex-direction: column;
-    max-width: 1100px;
+    max-width: 1172px;
     justify-content: space-evenly;
     align-items: center;
     padding: 36px;
@@ -140,7 +143,7 @@ body {
     max-width: 400px;
 }
 
-@media (min-width:1100px) {
+@media (min-width:1172px) {
     .personalize-rewards-section {
         flex-direction: row-reverse;
     }
@@ -156,7 +159,7 @@ body {
     justify-content: space-between;
     align-items: center;
     background-color:#f9f5f2;
-    max-width: 1100px;
+    max-width: 1172px;
     padding: 36px;
 }
 .stars-award {
@@ -169,7 +172,7 @@ body {
     max-width: 480px;
 }
 
-@media (min-width:1100px) {
+@media (min-width:1172px) {
     .earn-stars-section {
         flex-direction: row;
     }
@@ -188,10 +191,10 @@ body {
     align-items: center;
     justify-content: space-between;
     padding: 36px;
-    max-width: 1100px;
+    max-width: 1172px;
 }
 
-@media (min-width:1100px) {
+@media (min-width:1172px) {
     .footer {
     flex-direction: row;
     }

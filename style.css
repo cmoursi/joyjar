@@ -107,18 +107,6 @@ font-family: 'ABeeZee';font-size: 64px;
     padding: 36px;
 }
 
-.joy-jar-logo {
-    width: 100%;
-    height: auto;
-    
-}
-
-@media (min-width: 920px) {
-    .download-cta {
-        flex-direction: row;
-    }
-}
-
 .download-button {
     display:flex;
     flex-direction: column;
@@ -126,15 +114,21 @@ font-family: 'ABeeZee';font-size: 64px;
     text-align: center;
 }
 
-.joy-jar-logo {
-    width: 273px;
-    height: auto;
-    padding: 15px;
+.download-button h2 {
+    padding: 20px;
 }
 
 @media (min-width: 920px) {
+    .download-cta {
+        flex-direction: row;
+    }
+
     .joy-jar-logo {
+        width: 273px;
+        height: auto;
+        padding: 15px;
         margin: -84px;
+        align-content: center;
     }
 }
 
@@ -192,7 +186,9 @@ font-family: 'ABeeZee';font-size: 64px;
 .pizza {
     text-align: center;
     max-width: 400px;
+    padding: 20px;
 }
+
 
 @media (min-width: 920px) {
     .personalize-rewards-blurb {

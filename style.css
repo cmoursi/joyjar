@@ -61,11 +61,16 @@ font-family: 'ABeeZee';font-size: 44px;
 
 .card-section img {
     padding: 24px;
+    /*min-height: 33vh;
+    min-width: auto;*/
 }
 
 @media (min-width:1172px) {
     .card-section {
         flex-direction: row;
+    }
+    .card-section img{
+        min-width: 360px;
     }
 }
 

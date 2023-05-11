@@ -130,7 +130,7 @@ h1 {
 
 .time-sensitive-section {
     background-color:#f9f5f2;
-    padding: 36px;
+    padding: 24px;
 }
 .time-sensitive-blurb {
     display: flex;
@@ -170,7 +170,7 @@ h1 {
     max-width: 920px;
     justify-content: space-evenly;
     align-items: center;
-    padding: 36px;
+    padding: 24px;
 }
 
 .pizza {
@@ -192,7 +192,7 @@ h1 {
 /*EARN STARS SECTION*/
 .earn-stars-section {
     background-color:#f9f5f2;
-    padding: 36px;
+    padding: 24px;
 }
 .earn-stars-blurb {
     display: flex;

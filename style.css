@@ -31,11 +31,14 @@ font-family: 'ABeeZee';font-size: 64px;
 }
 
 @media (min-width: 920px){
+
 .content {
-    margin:auto;
-    max-width: 920px;
+   /*TARGET ALL CONTENT*/
+   margin: auto;
+   max-width: 920px;
+    }
 }
-}
+
 
 /*HEADER SECTION*/
 .desktop-header{
@@ -67,24 +70,22 @@ font-family: 'ABeeZee';font-size: 64px;
 }
 
 /*CARD SECTION*/
+
 .card-section {
+    padding-bottom: 34px;
+    background-color:#f9f5f2; 
+}
+.card-images {
     display:flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    background-color:#f9f5f2; 
-    padding-bottom: 24px;
     gap: 24px;
 
 }
 
-.card-section img {
-    min-width: 200px;
-    min-height: auto;
-}
-
 @media (min-width: 920px) {
-    .card-section {
+    .card-images {
         flex-direction: row;
         max-width: 920px;
     }
@@ -94,12 +95,15 @@ font-family: 'ABeeZee';font-size: 64px;
 }
 
 /*DOWNLOAD APP SECTION*/
-.download-section {
+.download-cta {
     display:flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
     max-width: 920px;
+}
+
+.download-section {
     padding: 36px;
 }
 
@@ -110,7 +114,7 @@ font-family: 'ABeeZee';font-size: 64px;
 }
 
 @media (min-width: 920px) {
-    .download-section {
+    .download-cta {
         flex-direction: row;
     }
 }
@@ -122,13 +126,7 @@ font-family: 'ABeeZee';font-size: 64px;
     text-align: center;
 }
 
-.download-button img {
-    width: 50%;
-    height: auto;
-}
-
 .joy-jar-logo {
-    margin: 0px;
     width: 273px;
     height: auto;
     padding: 15px;
@@ -143,13 +141,16 @@ font-family: 'ABeeZee';font-size: 64px;
 /*TIME SENSITIVE SECTION*/
 
 .time-sensitive-section {
+    background-color:#f9f5f2;
+    padding: 36px;
+}
+.time-sensitive-blurb {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    background-color:#f9f5f2;
     max-width: 920px;
-    padding: 36px;
+    
 }
 .good-morning-mockup {
    max-width: 350px; 
@@ -162,7 +163,7 @@ font-family: 'ABeeZee';font-size: 64px;
 }
 
 @media (min-width: 920px) {
-    .time-sensitive-section {
+    .time-sensitive-blurb {
         flex-direction: row;
     }
     .good-morning-mockup{
@@ -175,8 +176,11 @@ font-family: 'ABeeZee';font-size: 64px;
 }
 
 /*PERSONALIZE REWARDS SECTION*/
-
 .personalize-rewards-section {
+
+}
+
+.personalize-rewards-blurb {
     display:flex;
     flex-direction: column;
     max-width: 920px;
@@ -191,7 +195,7 @@ font-family: 'ABeeZee';font-size: 64px;
 }
 
 @media (min-width: 920px) {
-    .personalize-rewards-section {
+    .personalize-rewards-blurb {
         flex-direction: row-reverse;
     }
     .pizza {
@@ -201,13 +205,15 @@ font-family: 'ABeeZee';font-size: 64px;
 
 /*EARN STARS SECTION*/
 .earn-stars-section {
+    background-color:#f9f5f2;
+    padding: 36px;
+}
+.earn-stars-blurb {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    background-color:#f9f5f2;
     max-width: 920px;
-    padding: 36px;
 }
 .stars-award {
    max-width: 350px; 
@@ -220,7 +226,7 @@ font-family: 'ABeeZee';font-size: 64px;
 }
 
 @media (min-width: 920px) {
-    .earn-stars-section {
+    .earn-stars-blurb {
         flex-direction: row;
     }
     .stars-award{
@@ -231,13 +237,16 @@ font-family: 'ABeeZee';font-size: 64px;
 }
 
 /*FOOTER SECTION*/
-.footer {
+.footer-section {
     background-color:#30E3DF;
+    padding: 36px;
+}
+
+.footer {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    padding: 36px;
     max-width: 920px;
 }
 

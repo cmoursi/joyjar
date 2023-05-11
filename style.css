@@ -25,6 +25,11 @@ font-family: 'ABeeZee';font-size: 64px;
 
 }
 
+.img-responsive {
+    max-width: 100%;
+    height: auto;
+}
+
 @media (min-width: 920px){
 .content {
     margin:auto;
@@ -69,11 +74,11 @@ font-family: 'ABeeZee';font-size: 64px;
     align-items: center;
     background-color:#f9f5f2; 
     padding-bottom: 24px;
+    gap: 24px;
 
 }
 
 .card-section img {
-    padding: 24px;
     min-width: 200px;
     min-height: auto;
 }

@@ -30,6 +30,11 @@ font-family: 'ABeeZee';font-size: 44px;
     background-color:#f9f5f2;
     justify-content: center;
     padding: 24px;
+    
+}
+
+.mobile-header img {
+    min-height: 75vh;
 }
 
 @media (min-width:1172px) {

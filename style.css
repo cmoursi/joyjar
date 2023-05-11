@@ -33,8 +33,8 @@ font-family: 'ABeeZee';font-size: 44px;
 }
 
 .mobile-header img {
-    max-height: 75vh;
-    min-height: 50vh;
+   width: 80%;
+   height: auto;
 }
 
 @media (min-width:1172px) {
@@ -62,8 +62,9 @@ font-family: 'ABeeZee';font-size: 44px;
 
 .card-section img {
     padding: 24px;
-    /*min-height: 33vh;
-    min-width: auto;*/
+    width: 80%;
+    height: auto;
+    /*max-width: ;*/
 }
 
 @media (min-width:1172px) {

@@ -1,13 +1,15 @@
 h1 {
 font-family: 'ABeeZee';font-size: 50px;
+padding: 25px;
 }
 
 p {
-font-family: 'ABeeZee';font-size: 44px;  
+font-family: 'ABeeZee';font-size: 38px;  
 }
 
 h2 {
 font-family: 'ABeeZee';font-size: 64px;
+padding: 25px;
 }
 
 @media (min-width: 920px){
@@ -114,10 +116,6 @@ font-family: 'ABeeZee';font-size: 64px;
     text-align: center;
 }
 
-.download-button h2 {
-    padding: 20px;
-}
-
 @media (min-width: 920px) {
     .download-cta {
         flex-direction: row;
@@ -170,10 +168,6 @@ font-family: 'ABeeZee';font-size: 64px;
 }
 
 /*PERSONALIZE REWARDS SECTION*/
-.personalize-rewards-section {
-
-}
-
 .personalize-rewards-blurb {
     display:flex;
     flex-direction: column;
